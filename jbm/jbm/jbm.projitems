@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{CFA7C524-B4FE-4EE4-BBCB-82AFAA1AB377}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>jbm</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)jbm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Beer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\BeerService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\GeoNamesWebService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Earthquake.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\EarthquakesPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\JailBreakBeerMongoService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)View\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModel\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Helper\" />
+  </ItemGroup>
+</Project>
