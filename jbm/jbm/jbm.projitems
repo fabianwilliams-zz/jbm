@@ -11,11 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)jbm.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Beer.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\BeerService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\HomePage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\GeoNamesWebService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Model\Earthquake.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)View\EarthquakesPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\JailBreakBeerMongoService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\ListofBeerCell.cs" />
   </ItemGroup>
