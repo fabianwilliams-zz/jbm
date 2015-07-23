@@ -12,38 +12,31 @@ namespace jbm
 	public class HomePage : ContentPage
 	{
 		ListView lv;
-		private BeerService beerService;
-		public List<Beer> Items { get; private set; }
 
 		public HomePage ()
 		{
 			Title = "Pulling JailBreak Beer from Mongo";
-//			var l = new Label { Text = "Beers", Font = Font.BoldSystemFontOfSize(NamedSize.Large) };
 
 			lv = new ListView ();
-			lv.ItemTemplate = new DataTemplate(typeof(TextCell));
-			lv.ItemTemplate.SetBinding(TextCell.TextProperty, "Name");
+
+//			If below is uncommented then we get all the elements in the row but its too big. 
+//			lv = new ListView{
+//				HasUnevenRows = true
+//
+//			};
+
+			lv.ItemTemplate = new DataTemplate (typeof(ListofBeerCell)); 
+
 //			lv.ItemSelected += (sender, e) => {
 //				var eq = (Beer)e.SelectedItem;
 //				DisplayAlert("Beer info", eq.ToString(), "OK", null);
 //			};
 
-//			var b = new Button { Text = "Get Jailbreak Beers" };
-//			b.Clicked += async (sender, e) => {
-//				var sv = new JailBreakBeerMongoService();
-//				var es = await sv.GetBeersAsync();
-//				Xamarin.Forms.Device.BeginInvokeOnMainThread( () => {
-//					Debug.WriteLine("found " + es.Length + " beers");
-//					l.Text = es.Length + " beers";
-//					lv.ItemsSource = es;
-//				});
-//			};
-
-
 			Content = new StackLayout { 
+				Padding = new Thickness (0, Device.OnPlatform (0, 0, 0), 0, 0),
+				Spacing = 3,
+				Orientation = StackOrientation.Vertical,
 				Children = {
-//					l,
-//					b,
 					lv
 				}
 			};
