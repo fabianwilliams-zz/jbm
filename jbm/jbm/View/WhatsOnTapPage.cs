@@ -7,23 +7,19 @@ using Xamarin.Forms;
 
 namespace jbm
 {
-
-
-	public class HomePage : ContentPage
+	public class WhatsOnTapPage : ContentPage
 	{
 		ListView lv;
 
-		public HomePage ()
+		public WhatsOnTapPage ()
 		{
-			Title = "Pulling JailBreak Beer from Mongo";
+			Title = "Whats On Tap Today";
 
 			lv = new ListView ();
 
 			lv.ItemTemplate = new DataTemplate (typeof(ListofBeerCell)); 
 
 			lv.ItemSelected += (sender, e) => {
-//				var eq = e.SelectedItem;
-//				DisplayAlert("Beer info", eq.ToString(), "OK");
 				Navigation.PushAsync(new BeerDetail(e.SelectedItem as Beer));
 			};
 
@@ -46,13 +42,10 @@ namespace jbm
 		public async Task CallMongoDatabaseAsync()
 		{
 			var jbms = new JailBreakBeerMongoService();
-			var gba = await jbms.GetBeersAsync();
+			var gba = await jbms.GetOnTapBeersAsync();
 			lv.ItemsSource = gba;
 		}
-			
+
 	}
-
 }
-
-
 

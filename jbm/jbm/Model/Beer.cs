@@ -22,6 +22,8 @@ namespace jbm
 		public string ProName { get; set; }
 		[JsonProperty(PropertyName = "smu")]
 		public string Smu {get; set;}
+		[JsonProperty(PropertyName = "ontapyn")]
+		public bool ontapyn { get; set; }
 
 		public override string ToString ()
 		{

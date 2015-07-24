@@ -1,13 +1,16 @@
 ﻿<Properties StartupItem="iOS/jbm.iOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="jbm/jbm.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="jbm/Helper/ListofBeerCell.cs">
     <Files>
-      <File FileName="jbm/View/HomePage.cs" Line="46" Column="5" />
-      <File FileName="jbm/jbm.cs" Line="30" Column="6" />
+      <File FileName="jbm/View/WhatsOnTapPage.cs" Line="16" Column="31" />
+      <File FileName="jbm/jbm.cs" Line="30" Column="35" />
+      <File FileName="jbm/Helper/ListofBeerCell.cs" Line="131" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/fabianwiilliams/1mycode/CommunityWork/jbm/jbm/jbm/ViewModel/GeoNamesWebService.cs" line="26" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
