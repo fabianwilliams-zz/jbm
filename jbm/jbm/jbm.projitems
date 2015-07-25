@@ -17,6 +17,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)View\BeerDetail.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\WhatsOnTapPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\MasterPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\JailBreakGoogleEventsService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\JBEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View\JBEventsPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Model\" />

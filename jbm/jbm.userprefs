@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="iOS/jbm.iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.4" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MonoDevelop.Ide.Workbench ActiveDocument="jbm/Helper/ListofBeerCell.cs">
     <Files>
-      <File FileName="jbm/View/WhatsOnTapPage.cs" Line="16" Column="31" />
-      <File FileName="jbm/jbm.cs" Line="30" Column="35" />
+      <File FileName="jbm/View/WhatsOnTapPage.cs" Line="1" Column="1" />
+      <File FileName="jbm/jbm.cs" Line="1" Column="1" />
       <File FileName="jbm/Helper/ListofBeerCell.cs" Line="131" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

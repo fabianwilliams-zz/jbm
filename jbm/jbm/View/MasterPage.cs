@@ -8,7 +8,8 @@ namespace jbm
 		public MasterPage ()
 		{
 			this.Children.Add (new HomePage () {Title = "All Our Beers", Icon = "Beer-30.png"});
-			this.Children.Add (new WhatsOnTapPage () {Title = "What's On Tap", Icon = "Beer-30.png"});
+			this.Children.Add (new WhatsOnTapPage () {Title = "What's On Tap", Icon = "BeerGlass-30.png"});
+			this.Children.Add (new JBEventsPage () {Title = "Events", Icon = "Calendar-30.png"});
 		}
 	}
 }
