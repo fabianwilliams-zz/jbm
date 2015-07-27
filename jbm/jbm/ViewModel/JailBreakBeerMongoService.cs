@@ -25,7 +25,7 @@ namespace jbm
 			};
 
 			requestMessage.Headers.Add("Ocp-Apim-Trace", "true");
-			requestMessage.Headers.Add("Ocp-Apim-Subscription-Key", "dfda3434dd624baaa88f7e6fada83524");
+			requestMessage.Headers.Add("Ocp-Apim-Subscription-Key", "{put ur own key here}");
 
 			var response = await client.SendAsync (requestMessage);
 			var beerJson = "{\"beers\":" + response.Content.ReadAsStringAsync().Result + "}";
@@ -51,7 +51,7 @@ namespace jbm
 			};
 
 			requestMessage.Headers.Add("Ocp-Apim-Trace", "true");
-			requestMessage.Headers.Add("Ocp-Apim-Subscription-Key", "dfda3434dd624baaa88f7e6fada83524");
+			requestMessage.Headers.Add("Ocp-Apim-Subscription-Key", "{put ur own key here}");
 
 			var response = await client.SendAsync (requestMessage);
 			var beerJson = "{\"beers\":" + response.Content.ReadAsStringAsync().Result + "}";
