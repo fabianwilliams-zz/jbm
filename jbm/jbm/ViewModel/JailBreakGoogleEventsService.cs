@@ -20,7 +20,7 @@ namespace jbm
 			var client = new System.Net.Http.HttpClient ();
 			var requestMessage = new HttpRequestMessage()
 			{
-				RequestUri = new Uri("https://www.googleapis.com/calendar/v3/calendars/q1k3ll0bdkis2ceef447rthocs@group.calendar.google.com/events?key=AIzaSyAHLnznypEgj3IAWmDe04XCBpSqgKhikP4"),
+				RequestUri = new Uri("https://www.googleapis.com/calendar/v3/calendars/{put ur own calendar id}/events?key={put ur own key here}"),
 				Method = HttpMethod.Get,
 			};
 
