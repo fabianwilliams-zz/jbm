@@ -1,11 +1,21 @@
 ﻿<Properties StartupItem="iOS/jbm.iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="jbm/Helper/ListofBeerCell.cs">
-    <Files>
-      <File FileName="jbm/View/WhatsOnTapPage.cs" Line="1" Column="1" />
-      <File FileName="jbm/jbm.cs" Line="1" Column="1" />
-      <File FileName="jbm/Helper/ListofBeerCell.cs" Line="131" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.4" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="jbm" expanded="True">
+            <Node name="jbm" expanded="True">
+              <Node name="Helper" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="View" expanded="True" selected="True" />
+              <Node name="ViewModel" expanded="True" />
+            </Node>
+            <Node name="jbm.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
